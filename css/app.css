@@ -132,6 +132,7 @@ i.icon-phone {
 
 #logo img {
 	width: 245px;
+	max-width: 245px;
 }
 
 #social {
