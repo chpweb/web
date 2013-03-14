@@ -8,6 +8,6 @@ h1, h2, h3 {
 	font-weight: bold;
 }
 
-#menu, #block-footer, #social, .breadcrumb, header .btn-group {
+#menu, #block-footer, #social, .breadcrumb, header {
 	display: none !important;
 }
