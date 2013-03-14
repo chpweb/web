@@ -9,5 +9,5 @@ h1, h2, h3 {
 }
 
 #menu, #block-footer, #social, .breadcrumb {
-	display: none;
+	display: none !important;
 }
