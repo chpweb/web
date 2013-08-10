@@ -323,6 +323,11 @@ div .fb_reset {
 	position: relative;
 }
 
+.adsbygoogle {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
 @media (max-width: 979px){
 	#logo {
 		top: 2px;
