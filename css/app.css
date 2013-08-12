@@ -329,7 +329,7 @@ div .fb_reset {
 	margin: 0 0 10px 10px;
 */
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
 @media (max-width: 979px){
