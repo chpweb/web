@@ -328,7 +328,7 @@ div .fb_reset {
 	float: right;
 	margin: 0 0 10px 10px;
 */
-	display: block;
+	display: block !important;
 	margin: 10px auto;
 }
 
