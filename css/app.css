@@ -324,8 +324,11 @@ div .fb_reset {
 }
 
 .adsbygoogle {
+/*
 	float: right;
 	margin: 0 0 10px 10px;
+*/
+	text-align: center;
 }
 
 @media (max-width: 979px){
