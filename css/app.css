@@ -330,7 +330,7 @@ div .fb_reset {
 */
 
 	display: block !important;
-	margin: 10px auto;
+	margin: 20px auto 10px auto;
 }
 
 @media (max-width: 979px){
