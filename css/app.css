@@ -81,6 +81,10 @@ i.icon-phone {
 	width: 15px;
 }
 
+li {
+	padding: 0 0 5px 0;
+}
+
 .well {
 	border: 1px solid #D2D3D4;
 	background: #FBFCFD;
