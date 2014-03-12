@@ -309,6 +309,10 @@ div .fb_reset {
 	background-position: 0 -47px;
 }
 
+.fb-like {
+	height: 30px;
+}
+
 #footer {
 	font-size: 12px;
 	line-height: 16px;
