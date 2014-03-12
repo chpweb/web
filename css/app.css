@@ -309,8 +309,8 @@ div .fb_reset {
 	background-position: 0 -47px;
 }
 
-.fb-like {
-	height: 30px;
+.fb-like span {
+	height: 30px !important;
 }
 
 #footer {
