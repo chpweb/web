@@ -246,6 +246,12 @@ div .fb_reset {
 	font-size: 18px;
 }
 
+.contact-link a {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 .quotes {
 	font-size:11px;
 	background:url(/img/icons/icon_quotes.png) 5px 6px no-repeat;
