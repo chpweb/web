@@ -96,20 +96,6 @@ section {
 .navbar-toggle {
   margin-right: 0;
 }
-@media (min-width: 768px) {
-  .navbar-right {
-      margin-right: -30px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .navbar-default .navbar-nav>li a {
-    font-size: 11px;
-    padding: 6px 8px;
-  }
-  .twitter-timeline {
-    width: 100% !important;
-  }
-}
 .navbar-default .navbar-nav>li+li {
     margin-left: -1px;
 }
@@ -357,6 +343,26 @@ div .fb_reset {
 */
   display: block !important;
   margin: 20px auto 10px auto;
+}
+@media (min-width: 768px) {
+  .navbar-right {
+      margin-right: -30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-default .navbar-nav>li a {
+    font-size: 11px;
+    padding: 6px 8px;
+  }
+  .twitter-timeline {
+    width: 100% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .featured-content .text-holder p {
+    padding: 0px 15px 10px 15px;
+    margin: -5px 0 0 0;
+  }
 }
 @media (max-width: 979px) {
 
