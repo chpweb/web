@@ -1,37 +1,46 @@
+<div class="header container">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img src="/img/chp-logo-main.png" alt="logo"></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="visible-xs {% if page.active == 'home' %}active{% endif %}"><a href="/">Home</a></li>
+          <li class="{% if page.active == 'doctors' %}active{% endif %}"><a href="/doctors">Doctors</a></li>
+          <li class="{% if page.active == 'new-patients' %}active{% endif %}"><a href="/new-patients">New Patients</a></li>
+          <li class="{% if page.active == 'health' %}active{% endif %}"><a href="/health-information">Health Info</a></li>
+          <li class="{% if page.active == 'office' %}active{% endif %}"><a href="/office-information">Office Info</a></li>
+          <li class="{% if page.active == 'schedule' %}active{% endif %}"><a href="/scheduling">Scheduling</a></li>
+          <li class="{% if page.active == 'billing' %}active{% endif %}"><a href="/forms-billing">Forms & Billing</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
 <header class="container">
-	<a id="logo" href="/"><img src="/img/chp-logo-main.png" alt="logo"></a>
-	<div id="toolbar" class="clearfix">
-		<div class="pull-right">
-		<div>
-			<i class="icon-phone"></i>
-			<span>Call us directly:</span>
-			<span class="phone">630-848-1700</span>
-		</div>
-			<div class="hidden-phone"> 
-		  		<a href="/office-information"><i class="icon-map-marker"></i></a>
-          		<address>2007 95th Street Lower Level, Suite A Naperville, IL 60564</address>
-			</div>
-        	<div class="visible-phone">
-              <a href="/office-information" style="font-weight: bold;"><address>2007 95th Street Lower Level, Suite A Naperville, IL 60564</address></a>
-          	</div>
-		</div>
-	</div>
 
-	<nav id="menu" class="btn-group hidden-phone">
-		<a href="/doctors" class="btn {% if page.active == 'doctors' %}active{% endif %}">Doctors</a>
-		<a href="/new-patients" class="btn {% if page.active == 'new-patients' %}active{% endif %}">New Patients</a>
-		<a href="/health-information" class="btn {% if page.active == 'health' %}active{% endif %}">Health Info</a>
-		<a href="/office-information" class="btn {% if page.active == 'office' %}active{% endif %}">Office Info</a>
-		<a href="/scheduling" class="btn {% if page.active == 'schedule' %}active{% endif %}">Scheduling</a>
-		<a href="/forms-billing" class="btn {% if page.active == 'billing' %}active{% endif %}">Forms & Billing</a>
-	</nav>
-	
-	<nav id="menu-phone" class="btn-group btn-group-vertical visible-phone">
-		<a href="/doctors" class="btn {% if page.active == 'doctors' %}active{% endif %}">Doctors</a>
-		<a href="/new-patients" class="btn {% if page.active == 'new-patients' %}active{% endif %}">New Patients</a>
-		<a href="/health-information" class="btn {% if page.active == 'health' %}active{% endif %}">Health Info</a>
-		<a href="/office-information" class="btn {% if page.active == 'office' %}active{% endif %}">Office Info</a>
-		<a href="/scheduling" class="btn {% if page.active == 'schedule' %}active{% endif %}">Scheduling</a>
-		<a href="/forms-billing" class="btn {% if page.active == 'billing' %}active{% endif %}">Forms & Billing</a>
-	</nav>
+  <div id="toolbar" class="clearfix">
+    <div class="pull-right">
+      <div>
+        <i class="glyphicon glyphicon-phone"></i>
+        <span>Call us directly:</span>
+        <span class="phone">630-848-1700</span>
+      </div>
+      <div class="hidden-xs">
+        <a href="/office-information"><i class="glyphicon glyphicon-map-marker"></i></a>
+        <address>2007 95th Street Lower Level, Suite A Naperville, IL 60564</address>
+      </div>
+      <div class="visible-xs">
+        <a href="/office-information" style="font-weight: bold;"><address>2007 95th Street Lower Level, Suite A Naperville, IL 60564</address></a>
+      </div>
+    </div>
+  </div>
+
 </header>
