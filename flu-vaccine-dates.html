@@ -174,5 +174,28 @@ if (window.dataLayer) {
 
 		<p>Please call <strong>(630) 848-1700</strong> to schedule an appointment.</p>
 	</section>
+	<section>
+		<div id="map" class="google-map" style="border: 1px solid #999"></div>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOalw0stRNPJsnlm1IJqmmnn_LNEtxAJc&sensor=true">
+</script>
+<script type="text/javascript">
+  var mapOptions = {
+    center: new google.maps.LatLng(41.710548, -88.187582),
+    zoom: 14,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById("map"),
+    mapOptions);
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(41.710548, -88.187582),
+    map: map,
+    title: "Children\'s Health Partners"
+  });
+  var infowindow = new google.maps.InfoWindow({
+    content: "<div style=\"color: #000;\"><strong>Children\'s Health Partners</strong><br/>2007 95th Street Lower Level, Suite A<br/> Naperville, IL 60564<a href=\"http://www.google.com\">Test</a></div>"
+  });
+  infowindow.open(map, marker);
+</script>
+	</section>
 
 </div>
