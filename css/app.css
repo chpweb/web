@@ -44,7 +44,7 @@ section {
   padding-top: 20px;
 }
 .seperator {
-  padding: 10px 0;	
+  padding: 10px 0 0 0;	
 }
 .body-bg {
   background: #ECFAFC url(/img/body_top.jpg) center top no-repeat;
