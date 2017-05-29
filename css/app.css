@@ -362,7 +362,7 @@ div .fb_reset {
     width: 100% !important;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .featured-content .text-holder p {
     padding: 0px 15px 10px 15px;
     margin: -5px 0 0 0;
