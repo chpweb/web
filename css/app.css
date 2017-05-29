@@ -386,4 +386,7 @@ div .fb_reset {
       margin-left: 0;
       margin-top: -1px;
   }
+  .bill-pay-block img {
+    width: 50px;	  
+  }
 }
