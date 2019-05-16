@@ -27,9 +27,7 @@
           id && (js.id = id);
           frag.appendChild( js );
       };
-      
-    // Google+ button
-    add('http://apis.google.com/js/plusone.js');
+
     // Facebook SDK
     add('//connect.facebook.net/en_US/all.js#xfbml=1', 'facebook-jssdk');
     // Twitter SDK
